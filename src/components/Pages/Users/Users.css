@@ -1,0 +1,119 @@
+.users-container {
+  padding: 20px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  width: 100%;
+  padding-top: 80px;
+  
+}
+
+.product-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 290px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  
+  margin-bottom: 20px;
+}
+.product-card:active {
+  background-color: #b1c024;
+}
+
+.product-card h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #333;
+}
+
+.product-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.product-card strong {
+  color: #333;
+}
+
+.product-card .product-image {
+  width: 200px;
+  height: 300px;
+  margin-top: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .product-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-card {
+    width: 100%;
+  }
+}
+.FormControl1 {
+  width: 120px;
+  height: 40px;
+  position: relative;
+  top: 120px;
+  
+  height: auto;
+  
+}
+
+.paragriph_info {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-align: left;
+  text-decoration: none !important;
+}
+
+
+.paragriph {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-align: left;
+}
+
+.product-card img{
+  padding: 15px;
+  object-fit: cover;
+ 
+ 
+
+}
+
+.ipimg{
+  width: 130px;
+  height: 250px;
+  margin: auto !important;
+  margin-left: 25px !important;
+}
